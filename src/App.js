@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import './Navbar.js'
+import Navbar from './Navbar.js';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           hello 
         </p>
 
-
+        <Navbar/>
 
         <a
           className="App-link"
